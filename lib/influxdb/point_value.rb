@@ -48,8 +48,6 @@ module InfluxDB
     def escape_value(value)
       if value.is_a?(String)
         '"' + escape(value, :field_value) + '"'
-      elsif value.is_a?(Integer)
-        "#{value}i"
       else
         value.to_s
       end

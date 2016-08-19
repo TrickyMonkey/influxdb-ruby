@@ -6,7 +6,7 @@ require 'influxdb/version'
 # rubocop:disable Style/SpecialGlobalVars
 Gem::Specification.new do |spec|
   spec.name          = "influxdb"
-  spec.version       = InfluxDB::VERSION
+  spec.version       = InfluxDB::VERSION + "-patched"
   spec.authors       = ["Todd Persen"]
   spec.email         = ["influxdb@googlegroups.com"]
   spec.description   = "This is the official Ruby library for InfluxDB."
